@@ -34,7 +34,7 @@ $("#orderform").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbwGjJOLi3KJiVQUI77P3ZtcX1DmWbAlLJYPnGOyVhof5L40TMc/exec",
+        url: "https://script.google.com/macros/s/AKfycbxUeH5ZYBV7qJAktXEct5Bi0aDqdSv_VC_rIAEZ/exec",
         type: "post",
         data: serializedData
     });
